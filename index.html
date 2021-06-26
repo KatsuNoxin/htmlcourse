@@ -2,18 +2,55 @@
 <html lang = "en">
     <head>
         <meta charset = "UTF-8">
-        <title>Index</title>
+        <title>HTML5 Project</title>
     </head>
 
     <body>
+        <header>
+            <h1>Nixon Ng</h1>
+            <nav>
+                <!--Adding a navigation bar using the <nav> tag-->
+                <a href ="">One</a>
+                <a href ="">Two</a>
+                <a href ="">Three</a>
+                <a href ="">Let's Go</a>
+            </nav>
+        </header>
+
         <main>
-            <p>This is my main page</p>
+            <section><!--Favorite Foods with unordered lists-->
+                <h2>Favorite Foods</h2>
+                    <ul>
+                        <li>Cheese</li>
+                        <li>Burgers</li>
+                        <li>Fried Rice</li>
+                        <li>Sour Cream & Onion Chips</li>
+                    </ul>
+            </section>
 
+            <section><!--Achievements using labels and progress bars-->
+                <h2>Achievements</h2>
+                <label for="courseProg">Progress in this course (100%)</label>
+                <progress id="courseProg" value="100" max="100">100%</progress>
+                <br>
+                <label for="capStone">Progress in this Specialization capstone (20%)</label>
+                <progress id="capStone" value="20" max="100">20%</progress>
+                <br>
+                <label for="lifeGoals">Progress in life goals (40%)</label>
+                <progress id="lifeGoals" value="40" max="100">40%</progress>
+            </section>
+
+            <section><!--About Me using details tag-->
+                <h2>More About Me</h2>
+                <details>
+                    <summary>My Childhood</summary>
+                    <p>I grew up in Selangor, Malaysia. I've lived in the city for as long as I can remember, so whenever I traveled to the countryside I'm always comforted by the peacefulness of the country atmosphere.</p>
+                </details>
+            </section>
         </main>
-        <footer>
-            <p>Make a more interesting footer</p>
-
+        <footer><!--Footer encompassed with a <p> tag while using <img> tag for adding images & <a> tag to add hyperlinks-->
+            <p><img src="http://www.intro-webdesign.com/images/newlogo.png" alt="Logo of Web Development4E"> 
+                This page was created by Nixon Ng &amp; Colleen van Lent. To learn more about web design, visit <a href= "http://www.intro-webdesign.com">Intro To Web Design</a>.</p> 
         </footer>
-
-    </body>
+    </body> 
 </html>
